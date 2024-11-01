@@ -1,0 +1,133 @@
+.posts-wrapper.grid {
+  display:flex !important;
+  flex-wrap: wrap !important;
+  justify-content:flex-start !important;  
+  align-items: stretch !important;   
+}  
+.grid .post-item {
+  display:flex; 
+  justify-content: space-between;
+  flex-direction: column;
+   
+}  
+
+.carousel > .slick-list > .slick-track > .post-item {
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height:auto;
+}
+
+.posts-wrapper.carousel .slick-track {
+  display:flex !important;
+  flex-wrap: wrap !important;
+  justify-content:flex-start !important;  
+  align-items: stretch;
+}
+
+.posts-wrapper.list {
+  display:flex !important;
+ flex-direction: column;
+}
+
+.list .post-item {
+  display:flex;
+  flex-direction: row;
+  gap:20px;
+  height:auto;
+  width:100% !important;
+}
+
+
+.post_title {
+  margin:0 !important;
+}
+.post-btn {
+  transition:all .2s !important;
+  text-align: center;
+} 
+.post-image {
+  
+  object-fit: cover;
+}
+.post-info {
+  display:flex;
+  gap:10px;
+  align-items: center;
+}
+.post-info-block .avatar {
+  border-radius:50% !important;
+  border:3px solid #f8f8f8;
+}
+
+.post-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.slick-dots {
+  display:flex;
+  justify-content: center;
+  list-style: none !important;
+  margin-left:auto;
+  margin-right:auto;
+  padding:0 !important;
+  align-items:center !important;
+}
+
+.slick-slide {
+  margin: 0 10px;
+}
+.slick-arrow {
+  position:absolute;  
+  z-index: 100 ;
+  bottom: 50%;
+  padding:0 !important;
+  width:50px;
+  height: 50px;
+  font-size:22px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background:transparent;
+  color:inherit;
+}
+.slick-arrow:hover, .slick-arrow:active, .slick-arrow:visited , .slick-arrow:focus {
+  color:inherit;
+}
+.slick-image {
+  width:20px !important;
+}
+.slick-next {
+  right:-20px;
+  
+}
+.slick-prev {
+  left:-20px;
+  
+}
+
+@media screen and (max-width:500px)
+{
+  .slick-next {
+    right:6px;
+    
+  }
+  .slick-prev {
+    left:6px;
+    
+  }
+}
+.slick-dots li {
+  margin-left:3px;
+}
+.slick-dots li button { 
+  font-size: 0; 
+  width:14px;
+  height:14px;
+  border-radius:0%;
+  padding:0 !important;  
+  border:none;
+} 
+ 
